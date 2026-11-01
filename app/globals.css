@@ -2743,25 +2743,14 @@ a.store:hover {
   width: 100%;
   max-width: 1240px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 16px;
+  text-align: center;
   font-family: var(--mono);
   font-size: 11px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.55);
   z-index: 10;
-}
-
-.err-footer a {
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: none;
-  transition: color 0.18s ease;
-}
-
-.err-footer a:hover {
-  color: #ffffff;
-  text-decoration: underline;
+  padding: 24px 0 12px;
 }
 
 @media (max-width: 640px) {
