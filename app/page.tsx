@@ -59,20 +59,9 @@ export default function Home() {
         </div>
 
         <div className="pills">
-          <a href="#stack">Learn</a>
-          <a href="#pillars">Practise</a>
-          <a href="#offline">Offline</a>
+          <a href="#stack">Overview</a>
           <a href="#cards">Features</a>
           <a href="#pricing">Pricing</a>
-          <a
-            className="pill-contact"
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Chat with us on WhatsApp (09160651088)"
-          >
-            Contact Us
-          </a>
           <a className="pill-web" href={WEB_APP_URL}>
             Web App <span>↗</span>
           </a>
