@@ -9,6 +9,11 @@ const mono = Space_Mono({ subsets: ["latin"], weight: "400", variable: "--font-m
 export const metadata: Metadata = {
   title: "BUILD — The AI Companion for University Students",
   description: "Learn, practise and ask questions in one place, and keep going even when the network drops.",
+  icons: {
+    icon: [{ url: "/mark.webp", type: "image/webp" }],
+    shortcut: "/mark.webp",
+    apple: "/mark.webp",
+  },
 };
 
 export const viewport: Viewport = {
